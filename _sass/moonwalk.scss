@@ -46,7 +46,7 @@ table, th, td {
 
 div.highlighter-rouge pre code, pre code.highlighter-rouge {
   display: block;
-  overflow-x: auto;
+  overflow-x: scroll;
   padding: 1em;
 }
 
@@ -107,6 +107,7 @@ p, strong, b, em, small, li, hr, table, figcaption {
 }
 .highlight, pre code, blockquote {
   border-radius: 0.5em;
+  overflow-x: scroll;
 }
 blockquote {
   background-color: var(--bg-secondary);
